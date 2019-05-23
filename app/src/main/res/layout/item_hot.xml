@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="2dp"
+    android:paddingEnd="2dp"
+    android:paddingBottom="2dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/ig_img"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hot_item" />
+
+        <TextView
+            android:id="@+id/ig_descript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ig_img"
+            android:text="土地是以它的肥沃和收获而被估价的；才能也是"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ig_descript"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/ig_img"
+            android:text="洋甘菊"
+            android:textColor="@color/colorBlack002"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/ig_collage_price"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/ig_img"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ig_img"
+            android:textColor="@color/colorRed"
+            android:text="拼价￥29" />
+
+        <TextView
+            android:id="@+id/ih_stock"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/ig_img"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ig_collage_price"
+            android:textColor="@color/colorOrange"
+            android:text="库存320" />
+
+    </RelativeLayout>
+
+</LinearLayout>

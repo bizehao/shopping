@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="2dp"
+    android:paddingEnd="2dp"
+    android:paddingBottom="2dp"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorBlack001" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <CheckBox
+            android:id="@+id/ig_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CustomCheckBoxTheme"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/ig_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/test_good" />
+
+        <TextView
+            android:id="@+id/ig_descript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ig_img"
+            android:text="土地是以它的肥沃和收获而被估价的；才能也是"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/ig_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ig_descript"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/ig_img"
+            android:text="洋甘菊"
+            android:textColor="@color/colorBlack002"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/ig_collage_price"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/ig_img"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_toEndOf="@+id/ig_img"
+            android:textColor="@color/colorWhite"
+            android:text="拼价￥29"
+            android:background="@drawable/button002" />
+
+        <com.bzh.widgets.Amount.AmountView
+            android:id="@+id/ig_original_price"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/ig_img"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="2dp"
+            android:layout_toStartOf="@+id/ig_delete"
+            android:layout_toEndOf="@+id/ig_collage_price" />
+
+        <ImageView
+            android:id="@+id/ig_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ig_descript"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/share" />
+
+        <ImageView
+            android:id="@+id/ig_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ig_img"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/delete"/>
+    </RelativeLayout>
+
+</LinearLayout>

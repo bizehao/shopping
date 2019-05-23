@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="behavior_tab">com.bzh.shopping.module.shopDetails.TabBehavior</string>
+    <string name="behavior_Scroll">com.bzh.shopping.module.shopDetails.ScrollBeHavior</string>
+</resources>

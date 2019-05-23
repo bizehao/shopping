@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGreen">#06dc3c</color>
+    <color name="colorRed">#f2060a</color>
+    <color name="colorGray">#5c5c5c</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlue">#0b3fe9</color>
+    <color name="colorYellow">#e2d814</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorOrange">#f17313</color>
+    <color name="colordialogbac">#686462</color>
+    <color name="colorTransparent">#00000000</color><!--透明-->
+    <color name="colorTparent">#00000000</color><!--透明-->
+</resources>

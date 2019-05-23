@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.bzh.shopping.module.test.MyButtonOne
+            android:id="@+id/ft_but1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button1" />
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/ft_tab"
+        android:layout_width="200dp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginStart="100dp"
+        android:background="@color/colorGray"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/colorRed"
+        app:tabIndicatorHeight="2dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/colorRed"
+        app:tabTextColor="@color/colorBlack" />
+
+
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/ft_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorWhite"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ft_tx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7535e71e"
+        android:gravity="center" />
+
+</FrameLayout>

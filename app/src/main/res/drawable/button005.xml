@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 按钮按压 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape
+            android:shape="rectangle">
+            <stroke android:color="#50cecaca" android:width="1dp"/>
+            <solid android:color="#50cecaca" />
+            <corners android:bottomLeftRadius="8dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape
+            android:shape="rectangle">
+            <stroke android:color="#50cecaca" android:width="1dp"/>
+            <solid android:color="@color/colorWhite" />
+            <corners android:bottomLeftRadius="8dp"/>
+        </shape>
+    </item>
+</selector>
+
